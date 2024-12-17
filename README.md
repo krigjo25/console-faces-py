@@ -1,19 +1,27 @@
 # SMS EmojiConverter
 An application that replaces SMS emojis with modern emojis
 
-The application was implemented as an assignment at CS50P
-Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.<br>
+The application was implemented as a CS50 assignment.<br>
+Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.
+
 A demo of the application can be watched at [Demo : SMS EmojiConverter](https://cs50.harvard.edu/python/2022/psets/0/faces/)
 
 ## Installation
 1. Clone the repository:
 ```sh
-git clone https://github.com/krigjo25/console-adieu-py.git
+# Using SSh 
+ssh git@github.com:krigjo25/console-faces-py.git
+
+# Using git bash
+git clone https://github.com/krigjo25/console-faces-py.git
+
+# Using Github Cli
+gh repo clone console-faces-py
 ```
 
 2. Navigate to the project directory
 ```sh
-cd console-adieu-py
+cd console-faces-py
 ```
 
 3. Install the requirements
@@ -28,30 +36,24 @@ python app.py
 ##  Usage
 To use the application, run the following command in your terminal
 
-```sh
-Usage : type in the terminal python app.py, wait for the prompted message
-then type in some names.
-python app.py
-```
-
 ## Example
 ```sh
 python app.py
 
 prompt:
-Emojis : :)
+Emojis : <:)>
 
 expected output:
-Adieu, adieu to Krigjo25, and Krigjo25
+😊
 ```
 
-Replace `<Name>` with the desired name, seperate the names with comma to add multiple name
+Replace `<:)>` with the desired SMS emoji
 
 ## LICENCE
 The application is under [The Unlicensed](./LICENCE).
 
 ##  Testing framework / Datasets
-No testing framework used for this project
+No testing framework/ Datasets used for this project
 
 ## Notes from the developer
 Created with love, for python programming,

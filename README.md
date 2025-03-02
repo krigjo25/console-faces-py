@@ -1,5 +1,5 @@
 # SMS EmojiConverter
-An application that replaces SMS emojis with modern emojis
+An SMS smiley to Unicode convension tool 
 
 The application was implemented as a CS50 assignment.<br>
 Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.
